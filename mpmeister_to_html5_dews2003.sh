@@ -21,8 +21,8 @@ for d in ${MPDIR}/*; do
     ${MKDIR} ${OUTDIR}/${dir}/thumbnails
     echo "copy and convert slides in ${dir}"
     for img in ${MPDIR}/${dir}/*.JPG; do
-        ${CP} ${img} ${OUTDIR}/${dir}/slides
-        ${CONVERT} ${img} ${OUTDIR}/${dir}/thumbnails/`basename ${img}`
+        ${CP} ${img} ${OUTDIR}/${dir}/slides/`basename ${img} .JPG`.jpg
+        ${CONVERT} ${img} ${OUTDIR}/${dir}/thumbnails/`basename ${img} .JPG`.jpg
     done
     if [ -f ${MP_MOVIE_DIR}/${dir}/mpout.wmv ]; then
         echo "convert wmv file in ${dir}"
