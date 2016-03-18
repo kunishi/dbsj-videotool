@@ -6,6 +6,8 @@ these scripts need the following external tools:
 
 - ffmpeg (with libx264 vcodec, libvpx vcodec, and libvorbis audio codec)
 
+Also, they are implemented as UNIX shell scripts.  Cygwin is needed if you run these on Windows platform (though not tested).
+
 ## usage
 
 ### converter.sh
