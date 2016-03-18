@@ -27,12 +27,12 @@ for d in ${MPDIR}/*; do
     if [ -f ${MP_MOVIE_DIR}/${dir}/mpout.wmv ]; then
         echo "convert wmv file in ${dir}"
         video=${MP_MOVIE_DIR}/${dir}/mpout.wmv
-        ${SHELL} converter.sh ${video} ${dir} ${OUTDIR}/${dir} 400 300
+        ${SHELL} converter.sh ${video} ${dir} ${OUTDIR}/${dir}
     fi
     if [ -f ${MP_MOVIE_DIR}/${dir}/mpout.rm ]; then
         echo "convert rm file in ${dir}"
         video=${MP_MOVIE_DIR}/${dir}/mpoout.rm
-        ${SHELL} converter.sh ${video} ${dir} ${OUTDIR}/${dir} 400 300
+        ${SHELL} converter.sh ${video} ${dir} ${OUTDIR}/${dir}
     fi
     ${RM} ${MP_MOVIE_DIR}/${dir}/AudioVisual/*.log
 done
