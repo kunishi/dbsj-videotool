@@ -15,8 +15,8 @@ class TestConverter < Test::Unit::TestCase
     assert_equal(data[0][0], "DEIM2014")
   end
 
-  def test_dummy
-    p :test_dummy
-    assert_equal(1, 1)
+  def test_accessor
+    @converter.read("sample/sample.csv")
+    assert_equal(@converter.list[0][0], "DEIM2014")
   end
 end
