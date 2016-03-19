@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require_relative 'lib/converter'
+
+converter = Converter.new
+csv = ARGV[0]
+outdir = ARGV[1]
+
+converter.read csv
+converter.list.each do |entry|
+  converter.do_convert entry, outdir
+end

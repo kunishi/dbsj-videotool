@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    multi_json (1.11.2)
+    power_assert (0.2.7)
+    rake (11.1.1)
+    streamio-ffmpeg (2.0.0)
+      multi_json (~> 1.8)
+    test-unit (3.1.7)
+      power_assert
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  streamio-ffmpeg
+  test-unit
