@@ -58,8 +58,8 @@ fi
 
 if [ "$ENC_WEBM" = 1 ]; then
   ffmpeg -y -i ${INFILE} \
-    -c:v libvpx -crf 22 \
-    -deadline realtime -cpu-used -8 -threads 5 \
+    -c:v libvpx -crf 10 -b:v 1000K \
+    -deadline realtime -cpu-used -8 -threads 8 \
     -c:a libvorbis -q:a 4 \
     ${OUTDIR}/${BASE}.webm
 fi
