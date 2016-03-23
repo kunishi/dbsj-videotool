@@ -8,8 +8,11 @@ class Converter
   attr_reader :movie
 
   def initialize
+    FFMPEG::Transcoder.timeout = false
     @h264_options = {
       video_codec: "libx264",
+      resolution: "1280x720",
+      preserve_aspect_ratio: :width,
       x264_vprofile: "baseline",
       threads: 2,
       custom: "-crf 22 -pix_fmt yuv420p -movflags +faststart",
@@ -17,6 +20,8 @@ class Converter
     @webm_options = {
       video_codec: "libvpx",
       video_bitrate: 1000,
+      resolution: "1280x720",
+      preserve_aspect_ratio: :width,
       audio_codec: "libvorbis",
       threads: 2,
       custom: "-crf 10 -deadline realtime -cpu-used -8 -q:a 4",
@@ -35,14 +40,14 @@ class Converter
     outdir = "#{dir}/#{movie_data[0]}/#{movie_data[1]}"
     FileUtils.mkdir_p outdir
     movie = get_movie(movie_data[2]) if movie.nil?
-    movie.screenshot("#{outdir}/#{movie_data[1]}.jpg")
+    movie.screenshot("#{outdir}/#{movie_data[1]}.jpg", {resolution: "1280x720"})
   end
 
   def conv_png(movie, movie_data, dir)
     outdir = "#{dir}/#{movie_data[0]}/#{movie_data[1]}"
     FileUtils.mkdir_p outdir
     movie = get_movie(movie_data[2]) if movie.nil?
-    movie.screenshot("#{outdir}/#{movie_data[1]}.png")
+    movie.screenshot("#{outdir}/#{movie_data[1]}.png", {resolution: "1280x720"})
   end
 
   def conv_h264(movie, movie_data, dir)
