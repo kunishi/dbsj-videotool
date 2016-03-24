@@ -1,0 +1,26 @@
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+  <head>
+    <meta name="title" content="untitled"/>
+    <meta name="author" content="unknown"/>
+    <meta name="copyright" content="unknown"/>
+    <layout type="text/smil-basic-layout">
+      <region fit="fill" z-index="1" id="video" top="18" left="600" height="138" width="184"/>
+      <region z-index="1" id="picture" top="172" left="240" height="408" width="544"/>
+      <region z-index="0" id="back" top="0" left="0" height="600" width="800"/>
+      <region fit="scroll" z-index="1" id="text" top="172" left="20" height="408" width="192"/>
+      <region z-index="1" id="title" top="16" left="20" height="124" width="524"/>
+    </layout>
+  </head>
+  <body>
+    <par>
+      <img fill="freeze" region="back" src="gl205_2.jpg"/>
+      <text fill="freeze" region="title" src="./title.rt" clip-begin="0:11:45.566" clip-end="0:0:1213.233"/>
+      <video fill="freeze" region="video" src="rtsp://stream.dbsj.org/DEWS/2003/Opening/mpout.rm" clip-begin="0:11:45.566" clip-end="0:0:1213.233"/>
+      <img fill="freeze" region="picture" src="./image.rp" clip-begin="0:11:45.566" clip-end="0:0:1213.233"/>
+      <seq>
+        <text region="text" src="./text10.rt" dur="00:00:00:77.633"/>
+        <text region="text" fill="freeze" src="./text11.rt" dur="00:00:00:430.033"/>
+      </seq>
+    </par>
+  </body>
+</smil>

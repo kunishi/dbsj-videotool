@@ -1,0 +1,153 @@
+/*
+ * Copyright (c) 2003-2006 Ricoh Company, Ltd.
+ * All rights reserved.
+ */
+
+/* HTML elements */
+
+.a {
+    color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+    color:#000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+body {
+    font-size: small;
+    font-family: "MS UI Gothic", sans-serif;
+    background-color:  #EFF7FF;
+    background-image: url(images/bodyBG.gif);
+    background-repeat: repeat-x; 
+    margin: 0px 0px 0px 0px;
+}
+
+/* end HTML elements */
+
+
+
+.hidden {
+    visibility: hidden;
+}
+
+.none {
+    display: none;
+}
+
+div.header-area {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-image: url(images/headerBG.gif);
+    background-repeat: repeat-x;
+}
+
+div.main-area {
+    margin: 0px;
+    margin-left: 0px;
+    white-space: nowrap;
+    height: 32px;
+}
+
+div.sidebar {
+    color: #000;
+    background-color: #eaf1f8;
+    width: 167px;
+    height: 400px;
+    float: left;
+    
+    border-top: 1px solid #BBD0E7;
+    border-right: 1px solid #BBD0E7;
+    border-bottom: 1px solid #BBD0E7;
+}
+
+div.repository-status {
+    width: 100%;
+    height: 65px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+}
+
+div.search {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-top: 1px solid #BBD0E7;
+}
+
+div.content {    
+    background-color: #EFF7FF;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 167px;
+}
+
+div.tools {
+    height: 70px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color: #EFF7FF;
+    
+    border-top: 1px solid #BBD0E7;
+    border-bottom: 1px solid #BBD0E7;
+}
+
+div.main-instructions {
+    height: 70px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color:  #EFF7FF;
+    
+    border-top: 1px solid #BBD0E7;
+    border-bottom: 1px solid #BBD0E7;
+
+}
+
+div.content-register {
+    background-color: #EFF7FF;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px 5px 0px;
+}
+
+div.procedure-list {
+    margin: 10px 10px 10px 10px;
+}
+
+div.delete {
+    margin: 0px 0px 0px 0px;
+}
+
+div.details {
+    background-color: #EFF7FF;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 1px;
+    border-color: #BBD0E7;
+    boder-style: solid;
+}
+
+div.content-exception {
+    background-color: #EFF7FF;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px 5px 0px;
+}
+
+/*
+ * Copyright (c) 2003-2006 Ricoh Company, Ltd.
+ * All rights reserved.
+ */

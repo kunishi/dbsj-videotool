@@ -1,0 +1,232 @@
+/*
+ * Copyright (c) 2003-2006 Ricoh Company, Ltd.
+ * All rights reserved.
+ */
+ 
+/* Style sheet for printing */
+
+@page {
+  size: auto;
+    margin: 10%;
+}
+
+body {
+    font-size: x-small;
+    font-family: "MS UI Gothic", sans-serif;
+}
+
+/* header */
+.header-area {
+    display: none;
+}
+
+/* main menu */
+.main-area {
+    display: none;
+}
+
+/* details */
+.details-check{
+    margin: 5px 3px 0px 5px;
+}
+
+.media
+{
+    margin: 0px 0px 0px 3px;
+}
+
+.movie-area {
+    border-left: 1px solid #848484;
+}
+
+.details-list
+{
+    margin: 0px 0px 0px 0px;
+  background-color: #FFFFFF;
+  border-top: 1px solid #848484;
+  border-left: 1px solid #848484;
+  border-right: 1px solid #848484;
+  border-bottom: 1px solid #848484;
+  font-size: small;
+}
+
+.details-listmargin {
+    margin: 2px 0px 0px 2px;
+    background-color: #CBDBF0;
+}
+
+.details-listmargin-border-print {
+    border-top: 1px solid #848484;
+  border-left: 1px solid #848484;
+}
+
+.details-listmargin-border
+{
+    border-top: 1px solid #848484;
+    border-left: 1px solid #848484;
+}
+
+.detailContent {
+    margin: 0px;
+    width: 100%;
+}
+
+table.detailContent-table {
+    width: 100%;
+    table-layout: fixed;
+    border-left: 1px solid #848484;
+    word-wrap: break-word;
+    /* word-break: break-all; */
+}
+
+td.col2-detailContent-innerTable-col1 {
+    width: 140px;
+}
+
+td.col1-detailContent-innerTable-col1 {
+    width: 140px;
+}
+
+td.col1-detailContent-innerTable-col3 {
+    width: 140px;
+}
+
+.detailContent-NumBorder {
+    border-right: 1px solid #848484;
+    border-bottom: 1px solid #848484;
+}
+
+.detailNum
+{
+    margin: 3px 0px 3px 0px;
+}
+
+.detailNumText
+{
+    margin: 0px 0px 0px 10px;
+    font-size: medium;
+  font-weight: bold;
+}
+
+.detailNumText03
+{
+    margin: 0px 0px 0px 0px;
+    font-size: medium;
+  font-weight: bold;
+}
+
+.detailNumText02 {
+    margin: 0px 10px 0px 0px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.detailsPhoto {
+    border: 1px solid #848484;
+    width: 130px;
+    height: 105px;
+    text-align: center;
+}
+
+div.detailsPhoto img {
+    width: 130px;
+    height: 105px;
+}
+
+.detailcell01
+{
+    padding: 10px 10px 15px 10px;
+  text-align: center;
+    border-right: 1px solid #848484;
+  border-bottom: 1px solid #848484;
+}
+
+.detailcell02
+{
+    padding: 10px 10px 15px 10px;
+  text-align: left;
+    border-right: 1px solid #848484;
+  border-bottom: 1px solid #848484;
+}
+
+.detailsTextmargin
+{
+    margin: 5px 0px 0px 0px;
+    text-align: left;
+}
+
+.detailsTextmargin02
+{
+    margin: 0px 0px 0px 5px;
+    text-align: left;
+}
+
+.detailsTextmargin03
+{
+    margin: 0px 5px 0px 5px;
+    text-align: left;
+}
+
+.detailsTextTitle
+{
+    font-size: xx-small;
+  font-weight: bold;
+}
+
+.detailsText
+{
+    font-size: xx-small;
+    line-height: 12px;
+}
+
+.note-area01
+{
+    margin: 10px 0px 0px 0px;
+    border: 1px solid #848484;
+}
+
+.note-area02
+{
+    padding: 3px;
+    border: 1px solid #CDCDCD;
+  text-align: left;
+}
+
+.note-area01-178 {
+    margin: 10px 0px 0px 0px;
+    border: 1px solid #848484;
+    width: 130px;
+}
+
+.note-area02-178
+{
+    padding: 3px;
+    border: 1px solid #CDCDCD;
+  text-align: left;
+}
+
+.note-area03-178
+{
+    margin: 0px 0px 0px 0px;
+    border: 1px solid #848484;
+  width: 130px;
+}
+
+.noteTitleText
+{
+    margin: -10px 0px 0px 5px;
+  padding: 0px 0px 0px 0px;
+  background-color: #EFF7FF;
+  border: 1px solid #848484;
+    z-index: 4;
+}
+
+.page-break
+{
+  page-break-after: always;
+}
+
+/*
+ * Copyright (c) 2003-2006 Ricoh Company, Ltd.
+ * All rights reserved.
+ */

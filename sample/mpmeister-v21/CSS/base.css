@@ -1,0 +1,337 @@
+/**MPMeister css**/
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:active {
+text-decoration: none;
+}
+
+/*video--------------------------------------------------------------*/
+
+.video_bg {
+margin: 8px 16px 0px 16px;
+background-color: #ddddee;
+}
+
+/*control------------------------------------------------------------*/
+
+.control_bg {
+margin: 0px 16px 0px 16px;
+background-color: #ccccdd;
+}
+
+/*menu--------------------------------------------------------------*/
+/*common-------------------------*/
+
+.menu_bg {
+margin: 0px 0px 0px 0px;
+background-attachment: fixed;
+background-color: #bbbbcc;
+}
+
+.table {
+background-color: #112222;
+}
+
+/*normal--------------------------*/
+
+.number {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+background-color: #223344;
+}
+.number a:link{
+color: #bbcccc;
+}
+.number a:visited{
+color: #bbcccc;
+}
+.number a:active{
+color: #bbcccc;
+}
+
+.list {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+background-color: #223344;
+}
+.list a:link{
+color: #bbcccc;
+}
+.list a:visited{
+color: #bbcccc;
+}
+.list a:active{
+color: #bbcccc;
+}
+
+.time {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+color: #aaaaaa;
+background-color: #223344;
+}
+
+.thumbnail_bg {
+background-color: #223344;
+}
+
+.time_bar_bg {
+background-color: #223344;
+}
+
+/*selected-------------------------*/
+
+.selected_number {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+background-color: #667788;
+}
+.selected_number a:link{
+color: #ffffcc;
+}
+.selected_number a:visited{
+color: #ffffcc;
+}
+.selected_number :active{
+color: #ffffcc;
+}
+
+.selected_list {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+background-color: #667788;
+}
+.selected_list a:link{
+color: #ffffcc;
+}
+.selected_list a:visited{
+color: #ffffcc;
+}
+.selected_list :active{
+color: #ffffcc;
+}
+
+.selected_time {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+color: #cccccc;
+background-color: #667788;
+}
+
+.selected_thumbnail_bg {
+background-color: #667788;
+}
+
+.selected_time_bar_bg {
+background-color: #667788;
+}
+
+/*no slide-------------------------*/
+
+.alt_number {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+background-color: #333333;
+}
+.alt_number a:link{
+color: #999999;
+}
+.alt_number a:visited{
+color: #999999;
+}
+.alt_number a:active{
+color: #999999;
+}
+
+.alt_list {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+background-color: #333333;
+}
+.alt_list a:link{
+color: #999999;
+}
+.alt_list a:visited{
+color: #999999;
+}
+.alt_list a:active{
+color: #999999;
+}
+
+.alt_time {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+color: #888888;
+background-color: #333333;
+}
+
+.alt_thumbnail_bg {
+background-color: #333333;
+}
+
+.alt_time_bar_bg {
+background-color: #333333;
+}
+
+/*no slide selected-----------------*/
+
+.selected_alt_number {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+background-color: #667788;
+}
+.selected_alt_number a:link{
+color: #ffffcc;
+}
+.selected_alt_number a:visited{
+color: #ffffcc;
+}
+.selected_alt_number a:active{
+color: #ffffcc;
+}
+
+.selected_alt_list {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+background-color: #667788;
+}
+.selected_alt_list a:link{
+color: #ffffcc;
+}
+.selected_alt_list a:visited{
+color: #ffffcc;
+}
+.selected_alt_list a:active{
+color: #ffffcc;
+}
+
+.selected_alt_time {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+color: #dddddd;
+background-color: #667788;
+}
+
+.selected_alt_thumbnail_bg {
+background-color: #667788;
+}
+
+.selected_alt_time_bar_bg {
+background-color: #667788;
+}
+
+/*title--------------------------------------------------------------*/
+
+.title_bg {
+margin: 16px 16px 0px 16px;
+background-color: #002233;
+}
+
+.subtitle {
+font-family: "ＭＳ ゴシック", "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+color: #ddeeee;
+}
+
+.date {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+color: #ddeeee;
+}
+
+.title {
+font-family: "ＭＳ ゴシック", "MS UI Gothic", Arial, "sans serif";
+font-size: 20px;
+font-weight: bold;
+font-style: normal;
+color: #ddeeee;
+}
+
+.organization {
+font-family: "ＭＳ ゴシック", "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+color: #ddeeee;
+}
+
+.speaker {
+font-family: "ＭＳ ゴシック", "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+color: #ddeeee;
+}
+.duration {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+color: #ddeeee;
+}
+
+/*slide-------------------------------------------------------------*/
+
+.slide_bg {
+margin: 8px 16px 0px 16px;
+background-repeat: no-repeat;
+background-color: #9999aa;
+}
+
+.page {
+font-family: "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+color: #002233;
+}
+
+/*information------------------------------------------------------*/
+
+.information_bg {
+margin: 0px 16px 0px 16px;
+background-color: #888899;
+}
+
+.information {
+font-family: "ＭＳ ゴシック", "MS UI Gothic", Arial, "sans serif";
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+color: #ddeeee;
+}

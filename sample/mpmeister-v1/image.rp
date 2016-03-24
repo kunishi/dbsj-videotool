@@ -1,0 +1,24 @@
+<imfl>
+  <head background-color="white" preroll="0" bitrate="32000" timeformat="dd:hh:mm:ss.xyz" title="WelcometoDEWS2003" author="unknown" copyright="日本データベース学会" width="544" height="408" duration="00:00:00:1213.233"/>
+  <fill color="white" start="0"/>
+  <image handle="01" name="M_00001.jpg"/>
+  <fadein duration="1" start="0:0:0.000" target="01"/>
+  <image handle="03" name="M_00003.JPG"/>
+  <wipe type="normal" direction="right" duration="1" start="0:5:27.666" target="03"/>
+  <image handle="04" name="M_00004.JPG"/>
+  <wipe type="normal" direction="right" duration="1" start="0:5:54.033" target="04"/>
+  <image handle="05" name="M_00005.JPG"/>
+  <wipe type="normal" direction="right" duration="1" start="0:7:54.533" target="05"/>
+  <image handle="06" name="M_00006.JPG"/>
+  <wipe type="normal" direction="right" duration="1" start="0:8:14.633" target="06"/>
+  <image handle="07" name="M_00007.JPG"/>
+  <wipe type="normal" direction="right" duration="1" start="0:9:26.266" target="07"/>
+  <image handle="08" name="M_00008.JPG"/>
+  <wipe type="normal" direction="right" duration="1" start="0:10:2.133" target="08"/>
+  <image handle="09" name="M_00009.JPG"/>
+  <wipe type="normal" direction="right" duration="1" start="0:11:8.600" target="09"/>
+  <image handle="10" name="M_00010.JPG"/>
+  <wipe type="normal" direction="right" duration="1" start="0:11:45.566" target="10"/>
+  <image handle="11" name="M_00011.jpg"/>
+  <wipe type="normal" direction="right" duration="1" start="0:13:3.200" target="11"/>
+</imfl>

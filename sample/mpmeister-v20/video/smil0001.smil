@@ -1,0 +1,16 @@
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+<head>
+<meta name="title" content="video0001" />
+<meta name="author" content="unknown" />
+<meta name="copyright" content="unknown" />
+<layout type="text/smil-basic-layout">
+<region fit="fill" z-index="1" id="video" width="240" height="180" />
+</layout>
+</head>
+<body>
+<par>
+<video fill="freeze" region="video" src="rtsp://stream.dbsj.org/DEWS/2004/DBSJHour/ActivityReport/mpout.rm" clipBegin="00:00:00.0" clipEnd="00:08:33.7" />
+<seq></seq>
+</par>
+</body>
+</smil>
