@@ -4,7 +4,7 @@ MPBASE=/Volumes/Drobo/kunishi/dbsj
 MPDIR=${MPBASE}/www/html/$1
 MP_MOVIE_DIR=${MPBASE}/Content/$1
 
-OUTBASE=${MPBASE}/work/videos
+OUTBASE=${MPBASE}/finished
 OUTDIR=${OUTBASE}/$2
 
 MKDIR='mkdir -p'
