@@ -11,20 +11,32 @@ class Converter
     FFMPEG::Transcoder.timeout = false
     @h264_options = {
       video_codec: "libx264",
-      resolution: "1280x720",
+      resolution: "854x480",
+      video_min_bitrate: 300,
+      video_max_bitrate: 300,
+      buffer_size: 2000,
       preserve_aspect_ratio: :width,
       x264_vprofile: "baseline",
+      x264_preset: "slow",
+      audio_bitrate: 32,
+      audio_sample_rate: 22050,
+      audio_channels: 1,
       threads: 2,
       custom: "-crf 22 -pix_fmt yuv420p -movflags +faststart",
     }
     @webm_options = {
       video_codec: "libvpx",
-      video_bitrate: 1000,
-      resolution: "1280x720",
+      video_min_bitrate: 300,
+      video_max_bitrate: 300,
+      buffer_size: 2000,
+      resolution: "854x480",
       preserve_aspect_ratio: :width,
       audio_codec: "libvorbis",
+      audio_bitrate: 32,
+      audio_sample_rate: 22050,
+      audio_channels: 1,
       threads: 2,
-      custom: "-crf 10 -deadline realtime -cpu-used -8 -q:a 4",
+      custom: "-crf 22 -deadline realtime -cpu-used -8",
     }
   end
 
@@ -67,7 +79,7 @@ class Converter
   def do_convert movie_data, dir
     get_movie movie_data[2]
     conv_jpg @movie, movie_data, dir
-    conv_png @movie, movie_data, dir
+    # conv_png @movie, movie_data, dir
     conv_h264 @movie, movie_data, dir
     conv_webm @movie, movie_data, dir
   end

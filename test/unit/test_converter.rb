@@ -78,7 +78,7 @@ class TestConverter < Test::Unit::TestCase
     outdir = "/tmp/#{data[0][0]}/#{data[0][1]}"
     assert_true File.directory? outdir
     assert_true File.exist? "#{outdir}/#{data[0][1]}.jpg"
-    assert_true File.exist? "#{outdir}/#{data[0][1]}.png"
+    #assert_true File.exist? "#{outdir}/#{data[0][1]}.png"
     assert_true File.exist? "#{outdir}/#{data[0][1]}.mp4"
     assert_true File.exist? "#{outdir}/#{data[0][1]}.webm"
   end
